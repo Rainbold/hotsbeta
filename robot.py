@@ -6,7 +6,7 @@ def fct(id, login):
 	print '-------------------'
 	print id
 	cookies = dict(JSESSIONID='', __utma='', __utmz='', __atuvc='', PHPSESSID='')
-	payload = {'participantSweepstake.channel':'facebook', 'participant.firstName':'charlie','participant.lastName':'charliie',
+	payload = {'participantSweepstake.channel':'facebook', 'participant.firstName':login,'participant.lastName':login,
 	'participant.address1': '', 'participant.city': '', 'participant.postCode':'', 'participant.facebookId':'',
 	'participant.email':login+str(id)+'@yopmail.com', 'participant.mobilePhone':'', 'participantAnswers[0].questionAnswer.id':'263363','ivs':''}
 
